@@ -1,0 +1,155 @@
+.lgit{
+    background: url(../img/lgitbanner.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.lgit__wrap{
+    max-width: 940px;
+    width: 100%;
+    height: 100%;
+    padding: 69px 0 75px;
+    margin: 0 auto;
+}
+
+.lgit__desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lgit__h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 86px;
+}
+
+.lgit__cont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+
+.lgit__cont::before{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.09);
+    width: 80px;
+    height: 2px;
+    top: -60px;
+    left: 46%;
+}
+
+.lgit__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box__hloc{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.box__loc{
+    font-family: 'Vollkorn';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+
+.letter__img{
+    margin-bottom: 34px;
+}
+
+.letter__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.box__hlet{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.lgit__p{
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1C1C;
+    margin-bottom: 22px;
+}
+
+.box__mail{
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.box__pcon{
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.box__pscr{
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.box__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.box__link{
+    font-family: 'Vollkorn', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #212121;
+}
+
+.nav__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 11px;
+}
